@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logo img {
+    height: 40px;
+    padding-left: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.banner {
+    background: url('imge/top-carousel-ff.8a99c09b.jpg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .content {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.banner .info h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner .info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.banner .btn:hover {
+    background-color: darkred;
+}
+
+.game-carousel {
+    background-color: #2c3e50;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.game-carousel h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption {
+    color: white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.caption h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.caption p {
+    font-size: 14px;
+}
+
+.about-us {
+    padding: 100px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+.card h3 {
+    font-size: 24px;
+    color: #ff4d4d;
+    margin-bottom: 15px;
+}
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+.garena-pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.garena-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.garena-text {
+    margin-left: 40px;
+    color: #333;
+}
+
+.garena-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.garena-text h3 {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.garena-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.garena-text a.learn-more {
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.garena-sunghiep {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    background-color: white;
+}
+
+.career-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.career-left {
+    max-width: 50%;
+    padding-right: 100px;
+}
+
+.career-left h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.career-left p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+    line-height: 1.6;
+}
+.apply-btn {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.apply-btn:hover {
+    background-color: #e74c3c;
+}
+.career-right img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background-color: white;
+    padding: 100px;
+}
+
+footer .logo img {
+    height: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-details {
+    max-width: 50%;
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer-details p {
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.footer-links p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.footer-bottom {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #eaeaea;
+    padding-top: 10px;
+}
